@@ -63,9 +63,6 @@ Route::get('/dashboard', function () {
 // })->middleware(['auth', 'verified'])->name('addcategory');
 
 
-// Route::get('/editcategory', function () {
-//     return view('admin.editCategory');
-// })->middleware(['auth', 'verified'])->name('editcategory');
 
 
 Route::get('/users', function () {
